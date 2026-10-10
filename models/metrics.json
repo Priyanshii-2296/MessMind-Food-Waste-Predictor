@@ -1,0 +1,26 @@
+{
+  "results": {
+    "Linear Regression": {
+      "MAE": 6.25,
+      "R2": 0.865
+    },
+    "Random Forest": {
+      "MAE": 6.05,
+      "R2": 0.871
+    },
+    "Gradient Boosting": {
+      "MAE": 5.82,
+      "R2": 0.883
+    }
+  },
+  "best": "Gradient Boosting",
+  "features": [
+    "day_of_week",
+    "meal",
+    "menu_popularity",
+    "is_exam_week",
+    "is_event_or_holiday",
+    "temperature_c",
+    "students_registered"
+  ]
+}
